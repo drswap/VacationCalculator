@@ -1,4 +1,5 @@
 package ru.netology.services.VacationCalculator.months;
+
 public class CalculationOfTheNumberOfMonths {
     public int calculate(int income, int expenses, int threshold) {
         int currentMoney = 0;
@@ -11,7 +12,7 @@ public class CalculationOfTheNumberOfMonths {
                 remainingMoney = currentMoney - expenses;
                 currentMoney = remainingMoney;
             } else {
-                 remainingMoney = currentMoney + income - expenses;
+                remainingMoney = currentMoney + income - expenses;
                 currentMoney = remainingMoney;
             }
         }

@@ -6,7 +6,7 @@ public class Main {
         int income = 10000;
         int expenses = 60000;
         int threshold = 150000;
-        int vacationMonths = service.calculate(income, expenses, threshold );
+        int vacationMonths = service.calculate(income, expenses, threshold);
         System.out.println("Количество месяцев отдыха: " + vacationMonths);
 
     }
