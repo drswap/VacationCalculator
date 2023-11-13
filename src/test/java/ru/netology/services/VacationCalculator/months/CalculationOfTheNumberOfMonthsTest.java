@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class CalculationOfTheNumberOfMonthsTest {
     @ParameterizedTest
     @CsvSource({
-            "3,100000,60000,150000",
+            "2,100000,60000,150000",
 
     })
     public void calculate(int expected, int income, int expenses, int threshould) {

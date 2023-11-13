@@ -10,7 +10,7 @@ public class CalculationOfTheNumberOfMonths {
             if (currentMoney >= threshold) {
                 vacationMonths++;
                 remainingMoney = currentMoney - expenses;
-                currentMoney = remainingMoney;
+                currentMoney = remainingMoney - (remainingMoney * 2) / 3;
             } else {
                 remainingMoney = currentMoney + income - expenses;
                 currentMoney = remainingMoney;
